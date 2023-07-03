@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Chau Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Bienvenido</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor03">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#video">Video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bio">Bio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <img src="./BannerChw.jpg" class="img-fluid" alt="...">
+  <p class="h4">Hola! Yo soy</p>
+  <h1 class="display-3">Victor Chau</h1>
+  
+  <div class="grid gap-0 row-gap-3">
+    <div class="p-2 g-col-6"></div>
+    <div class="p-2 g-col-6"></div>
+  </div>
+
+  <div class="alert alert-dismissible alert-secondary">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <strong id="video">VIDEO</strong>  <a href="#" class="alert-link"></a>.
+  
+    <div class="grid text-center">
+      <div class="g-col-3 g-start-2"></div>
+      <div class="g-col-4 g-start-6">
+        <iframe width="500" height="400"
+        src="https://www.youtube.com/embed/sdaoB9uqdvM">
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid gap-0 row-gap-3">
+    <div class="p-2 g-col-6"></div>
+    <div class="p-2 g-col-6"></div>
+  </div>
+
+  <div class="alert alert-dismissible alert-secondary">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <strong id="bio">BIO</strong> 
+    <div></div>
+    <a>Soy administrador de empresas de carrera. Tengo experiencia laboral en diversas industrias como telecomunicaciones, farmacéutica, restaurantes, equipamiento médico y sitio de coworking. Entre el trabajo de dependiente y el del empresario he podido vivir de cerca casi todas las áreas que componen a las empresas. Desde lo contable y legal, hasta servicio al cliente y operacionales, etc. Todo lo anterior me ayudó a adquirir mucha experiencia y criterio, para que recientemente encuentre a la industria que estaba esperando por mí: La de la tecnología. A partir de ésta apunto fuertemente a emprendimientos sobre plataformas y apps, con una mirada muy ambiciosa hacia las transformaciones digitales.</a>
+    <a href="#" class="alert-link"></a>
+  </div>
+  
+  <div class="grid gap-0 row-gap-3">
+      <div class="p-2 g-col-6"></div>
+      <div class="p-2 g-col-6"></div>
+  </div>
+
+
+  <div class="alert alert-dismissible alert-secondary">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong id="proyectos">PROYECTOS</strong> 
+    
+
+
+
+    <div class="card-group">
+      <div class="card">
+        <img src="./PrintPacmen.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pacmen Exercise</h5>
+          <p class="card-text">Crea a voluntad varios "pacman's" y ponlos a moverse en toda tu pantalla.</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
+          <button type="button" class="btn btn-secondary" onclick="window.location.href = 'https://github.com/victorch2023/Pacmen';">REPO</button>
+          <button type="button" class="btn btn-secondary" onclick="window.location.href = 'https://victorch2023.github.io/Pacmen/';">Pruébalo!</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./PrintEyes.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Eyes Exercise</h5>
+          <p class="card-text">Aparecerá un par de ojos que seguirán el puntero de tu mouse.</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
+          <button type="button" class="btn btn-secondary" onclick="window.location.href = 'https://github.com/victorch2023/Eyes';">REPO</button>
+          <button type="button" class="btn btn-secondary" onclick="window.location.href = 'https://victorch2023.github.io/Eyes/';">Pruébalo!</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./PrintBus.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Real Time Bus Tracker</h5>
+          <p class="card-text">Mira en un mapa la ruta de un bus a través de las estaciones que van desde el MIT hasta HARVARD.</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
+          <button type="button" class="btn btn-secondary" onclick="window.location.href = 'https://github.com/victorch2023/RealTimeBusTracker';">REPO</button>
+          <button type="button" class="btn btn-secondary" onclick="window.location.href = 'https://victorch2023.github.io/RealTimeBusTracker/';">Pruébalo!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid gap-0 row-gap-3">
+    <div class="p-2 g-col-6"></div>
+    <div class="p-2 g-col-6"></div>
+  </div>
+
+  <div class="alert alert-dismissible alert-secondary">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <strong id="contacto">CONTACTO</strong> 
+    <div></div>
+    <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+      <button type="button" class="btn btn-secondary" onclick="window.location.href = 'https://github.com/victorch2023';">Github username: victorch2023</button>
+      <button type="button" class="btn btn-secondary" onclick="window.location.href = 'https://www.linkedin.com/in/victorchautay/';">LinkedIn: https://www.linkedin.com/in/victorchautay/</button>
+      <button type="button" class="btn btn-secondary" onclick="window.location.href = 'https://twitter.com/chowwha';">Twitter: @chowwha</button>
+      <a type="button" class="btn btn-secondary" href="mailto:chowwha@gmail.com">E-Mail: chowwha@gmail.com</a>
+    </div>
+
+  </div>
+
+
+</body>
+</html>
